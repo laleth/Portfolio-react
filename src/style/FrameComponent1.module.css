@@ -1,0 +1,144 @@
+.portfolio {
+  position: relative;
+  font-weight: 600;
+}
+
+.portfolioWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-92xl);
+  z-index: 0;
+}
+
+.frameChild {
+  width: 1098px;
+  position: relative;
+  max-height: 100%;
+  z-index: 1;
+}
+
+.cardChild,
+.cardItem {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.cardChild {
+  height: 47.44%;
+  bottom: 52.56%;
+  border-radius: var(--br-13xl) var(--br-13xl) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.cardItem {
+  height: 100%;
+  bottom: 0;
+  border-radius: var(--br-13xl);
+  background: linear-gradient(
+    142.52deg,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+}
+
+.project1,
+.titleOfThe {
+  position: absolute;
+  top: 53.9%;
+  left: 30px;
+  font-weight: 600;
+}
+
+.titleOfThe {
+  top: 64.14%;
+  font-size: var(--font-size-5xl);
+  font-weight: 300;
+}
+
+.explore {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-nunito-sans);
+  color: var(--color-white);
+  text-align: left;
+}
+
+.exploreWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl);
+  background-color: var(--color-brown);
+  position: absolute;
+  top: 362px;
+  left: 230px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 387px;
+  position: relative;
+  height: 449px;
+}
+
+.carousel {
+  height: 469px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-81xl);
+}
+
+.carouselParent,
+.frameParent {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.carouselParent {
+  margin: 0 !important;
+  top: 135px;
+  left: calc(50% - 437px);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  z-index: 2;
+  font-size: var(--font-size-9xl);
+}
+
+.frameParent {
+  top: 719.8px;
+  left: 120.8px;
+  border-radius: var(--br-11xl);
+  /* border: 0.5px solid var(--color-dimgray-100); */
+  box-sizing: border-box;
+  height: 1153.5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito-sans);
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}

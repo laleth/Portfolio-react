@@ -1,0 +1,26 @@
+.resume {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .property1defaultChild {
+    position: absolute;
+    height: 93.61%;
+    width: 20.44%;
+    top: 2.78%;
+    right: 4.38%;
+    bottom: 3.61%;
+    left: 75.18%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .property1default {
+    width: 137px;
+    height: 36px;
+    text-align: left;
+    font-size: var(--font-size-7xl);
+    color: var(--color-black);
+    font-family: var(--font-nunito-sans);
+  }
+  

@@ -1,0 +1,131 @@
+.contact1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+  }
+  .about {
+    position: absolute;
+    top: 59px;
+    left: 120px;
+    width: 148px;
+    height: 55px;
+  }
+  .getInTouch {
+    position: relative;
+    font-weight: 600;
+  }
+  .frameChild {
+    border: 0;
+    background-color: transparent;
+    width: 400px;
+    position: relative;
+    font-family: var(--font-nunito-sans);
+    font-size: var(--font-size-xl);
+    color: var(--color-darkslategray);
+  }
+  .getInTouchParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-45xl);
+  }
+  .frameInner,
+  .send {
+    font-size: var(--font-size-xl);
+    font-family: var(--font-nunito-sans);
+  }
+  .frameInner {
+    border: 0;
+    background-color: transparent;
+    width: 864px;
+    color: var(--color-darkslategray);
+  }
+  .send {
+    position: relative;
+    font-weight: 600;
+    color: var(--color-white);
+    text-align: left;
+  }
+  .sendWrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs) var(--padding-11xl);
+    background-color: var(--color-brown);
+    border-radius: var(--br-3xs);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .sendWrapper:hover {
+    transform: translateY(-5px); /* Apply the hover effect */
+  }
+
+  .frameParent {
+    position: absolute;
+    top: 198px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: var(--gap-9xl);
+  }
+  .trlalethgmailcom {
+    position: relative;
+    font-weight: 300;
+  }
+  .eMailParent,
+  .frameGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+  }
+  .frameGroup {
+    position: absolute;
+    top: 73px;
+    left: 404px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+    font-size: var(--font-size-xl);
+  }
+  .contactChild {
+    position: absolute;
+    top: 556px;
+    left: 80px;
+    max-height: 100%;
+    width: 1280px;
+  }
+  .contact {
+    position: absolute;
+    top: 1913px;
+    left: calc(50% - 720px);
+    background-color: var(--color-white);
+    width: 1440px;
+    height: 596px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-nunito-sans);
+  }
+
+  .iconSpacing {
+    margin-right: 20px; 
+  }
+  
+  .socialIcon {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .socialIcon:hover {
+    transform: translateY(-5px); /* Apply the hover effect */
+  }

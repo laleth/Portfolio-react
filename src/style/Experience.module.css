@@ -1,0 +1,223 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills {
+    position: relative;
+    font-weight: 600;
+  }
+  .frameChild {
+    width: 1098px;
+    position: relative;
+    max-height: 100%;
+  }
+  .skillsParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+  }
+  .languages1 {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-18xl);
+  }
+  .languages {
+    position: relative;
+  }
+  .frameContainer,
+  .languagesWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .frameContainer {
+    width: 291px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 58px;
+  }
+  .javascriptLogoJsPngLog,
+  .theCProgrammingLanguageC {
+    width: 80px;
+    position: relative;
+    height: 58.9px;
+    object-fit: cover;
+  }
+  .javascriptLogoJsPngLog {
+    width: 57.2px;
+    height: 59px;
+  }
+  .frameWrapper,
+  .theCProgrammingLanguageCParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .theCProgrammingLanguageCParent {
+    align-items: flex-start;
+    gap: var(--gap-xl);
+  }
+  .frameWrapper {
+    width: 167px;
+    align-items: center;
+  }
+  .download1Icon,
+  .theMustReadHtmlVsCssInfo {
+    width: 80px;
+    position: relative;
+    height: 60.9px;
+    object-fit: cover;
+  }
+  .download1Icon {
+    width: 69.4px;
+    height: 60.8px;
+  }
+  .mixinsConsideredHarmfulRe,
+  .nodeJsLogoPngVectorSvg {
+    width: 60.8px;
+    position: relative;
+    height: 60.8px;
+    object-fit: cover;
+  }
+  .nodeJsLogoPngVectorSvg {
+    width: 162px;
+    height: 66.8px;
+  }
+  .frameWrapper1 {
+    width: 421px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .newsqlTheBridgeBetweenSql {
+    width: 126.5px;
+    position: relative;
+    height: 59px;
+    object-fit: cover;
+  }
+  .image34Icon,
+  .periodicTableOfDevsecopsTo {
+    width: 173.4px;
+    position: relative;
+    height: 58.8px;
+    object-fit: cover;
+  }
+  .image34Icon {
+    width: 207.1px;
+    height: 55.8px;
+  }
+  .frameWrapper2,
+  .newsqlTheBridgeBetweenSqlParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .newsqlTheBridgeBetweenSqlParent {
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .frameWrapper2 {
+    width: 546px;
+    justify-content: center;
+  }
+  .image31Icon,
+  .image32Icon {
+    width: 61px;
+    position: relative;
+    height: 61px;
+    object-fit: cover;
+  }
+  .image31Icon {
+    width: 60px;
+    height: 60px;
+  }
+  .frameWrapper3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 var(--padding-3xs);
+  }
+  .gitlabLogoProposal1 {
+    width: 169.8px;
+    position: relative;
+    height: 61.2px;
+    object-fit: cover;
+  }
+  .githubLogoFreeIconsDesigne,
+  .image33Icon {
+    width: 57px;
+    position: relative;
+    height: 57px;
+    object-fit: cover;
+  }
+  .image33Icon {
+    width: 300.3px;
+    height: 44px;
+  }
+  .frameDiv {
+    flex-direction: column;
+    gap: var(--gap-11xl);
+  }
+  .aboutParent,
+  .frameDiv,
+  .frameGroup,
+  .frameParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameGroup {
+    flex-direction: row;
+    gap: 186px;
+    font-size: var(--font-size-9xl);
+    color: var(--color-dimgray-200);
+  }
+  .aboutParent,
+  .frameParent {
+    flex-direction: column;
+  }
+  .frameParent {
+    gap: var(--gap-11xl);
+    font-size: var(--font-size-21xl);
+  }
+  .aboutParent {
+    gap: var(--gap-41xl);
+  }
+  .frameItem {
+    width: 46px;
+    position: relative;
+    height: 46px;
+    cursor: pointer;
+  }
+  .experience,
+  .experienceInner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .experienceInner {
+    cursor: pointer;
+  }
+  .experience {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    overflow: hidden;
+    padding: 80px 93px;
+    box-sizing: border-box;
+    gap: 76px;
+    text-align: left;
+    font-size: var(--font-size-41xl);
+    color: var(--color-black);
+    font-family: var(--font-nunito-sans);
+  }
+  

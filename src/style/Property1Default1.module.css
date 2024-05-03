@@ -1,0 +1,14 @@
+.experience {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .property1default {
+    width: 164px;
+    height: 82px;
+    text-align: left;
+    font-size: var(--font-size-7xl);
+    color: var(--color-black);
+    font-family: var(--font-nunito-sans);
+  }
+  

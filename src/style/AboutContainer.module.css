@@ -1,0 +1,12 @@
+.portfolioParent {
+    position: absolute;
+    top: 52px;
+    left: 635px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs);
+    gap: var(--gap-41xl);
+  }
+  

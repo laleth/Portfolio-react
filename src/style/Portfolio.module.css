@@ -1,0 +1,124 @@
+.myPortfolioWrapper:hover,
+.contactMeWrapper:hover {
+  transform: translateY(-5px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.lalethTR {
+  position: absolute;
+  top: 56px;
+  left: 60px;
+}
+
+.imLalethT {
+  margin: 0;
+}
+
+.imLalethTContainer {
+  position: relative;
+  font-weight: 600;
+}
+
+.myPassionLies {
+  width: 594px;
+  position: relative;
+  font-size: var(--font-size-9xl);
+  display: inline-block;
+}
+
+.imLalethTRImAFullStacParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+
+.myPortfolio {
+  position: relative;
+  font-size: var(--font-size-9xl);
+  font-family: var(--font-nunito-sans);
+  color: var(--color-white);
+  text-align: left;
+}
+
+.myPortfolioWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: var(--color-brown);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactMe {
+  position: relative;
+  font-size: var(--font-size-9xl);
+  font-family: var(--font-nunito-sans);
+  color: var(--color-black);
+  text-align: left;
+}
+
+.contactMeWrapper {
+  cursor: pointer;
+  border: 2px solid var(--color-brown);
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+
+.frameGroup {
+  flex-direction: column;
+}
+
+.frameChild {
+  width: 460px;
+  position: relative;
+  border-radius: 50%;
+  height: 460px;
+  object-fit: contain;
+}
+
+.frameParent {
+  position: absolute;
+  top: calc(50% - 1059.5px);
+  left: calc(50% - 567px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  font-size: 38px;
+  color: var(--color-black);
+}
+
+.protfolio {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 2509px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 34px;
+  color: #665a5a;
+  font-family: var(--font-nunito-sans);
+}
+
+#tsparticles {
+  height: 100vh;
+  width: 100vw;
+}

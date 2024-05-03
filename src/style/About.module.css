@@ -1,0 +1,118 @@
+.frameChild {
+    width: 46px;
+    position: relative;
+    height: 46px;
+    cursor: pointer;
+  }
+  .about1,
+  .groupWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .about1 {
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-41xl);
+  }
+  .lalethTR {
+    position: relative;
+    font-weight: 600;
+  }
+  .frameItem {
+    width: 1098px;
+    position: relative;
+    max-height: 100%;
+  }
+  .httpswwwlinkedincominla {
+    margin: 0;
+  }
+  .trlalethgmailcom91638364Container {
+    position: relative;
+    font-size: var(--font-size-9xl);
+    color: var(--color-dimgray-200);
+  }
+  .iHaveOverContainer1 {
+    width: 100%;
+  }
+  .iHaveOverContainer {
+    width: 1098px;
+    position: relative;
+    font-size: var(--font-size-9xl);
+    color: var(--color-dimgray-200);
+    display: flex;
+    align-items: center;
+  }
+  .educationParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+    font-size: var(--font-size-21xl);
+  }
+  .bachelorOfEngineering1 {
+    font-family: var(--font-nunito-sans);
+  }
+  .bachelorOfEngineering {
+    color: var(--color-black);
+  }
+  .bachelorOfEngineeringElec1 {
+    margin-bottom: 0;
+  }
+  .bachelorOfEngineeringElec {
+    margin: 0;
+    font-size: inherit;
+    padding-left: var(--padding-18xl);
+  }
+  .bachelorOfEngineeringContainer {
+    position: relative;
+    color: var(--color-dimgray-200);
+  }
+  .sarathaMatricHigherSecondar {
+    margin: 0;
+    color: var(--color-dimgray-200);
+  }
+  .hsc2015Container {
+    position: relative;
+  }
+  .frameDiv {
+    display: flex;
+    justify-content: flex-start;
+    font-size: var(--font-size-9xl);
+  }
+  .aboutParent,
+  .frameDiv {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-21xl);
+  }
+  .about,
+  .aboutParent,
+  .frameParent {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .frameParent {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 27px;
+  }
+  .about {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 47px 120px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-nunito-sans);
+  }
+  
+
+ 
