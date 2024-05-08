@@ -25,11 +25,11 @@ const Property1Default3 = ({
   return (
     <div className={styles.property1default} style={property1Default3Style} onClick={onResumeClick}>
       <div className={styles.resume}>Resume</div>
-      <img
+      {/* <img
         className={styles.property1defaultChild}
         alt=""
         src="https://t3.ftcdn.net/jpg/06/34/05/72/360_F_634057292_y37hUcwPa0vsA8ZMGnnrHbyZtpkSeVuo.jpg"
-      />
+      /> */}
     </div>
   );
 };

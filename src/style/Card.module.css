@@ -1,3 +1,16 @@
+/* Card.module.css */
+
+.card {
+  width: 387px;
+  position: relative;
+  height: 449px;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-nunito-sans);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
 .cardChild,
 .cardItem {
   position: absolute;
@@ -17,25 +30,7 @@
     rgba(255, 255, 255, 0.25),
     rgba(255, 255, 255, 0)
   );
-  /* border: 1px solid var(--color-gray); */
-  box-sizing: border-box;
 }
-
-.cardItem {
-  height: 47.44%;
-  bottom: 52.56%;
-  border-radius: var(--br-13xl) var(--br-13xl) 0 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-
-
-.cardItem:hover {
-  transform: translateY(-20px); /* Apply the hover effect */
-}
-
 
 .cardItem {
   height: 47.44%;
@@ -63,43 +58,31 @@
   font-size: medium;
 }
 
-.explore {
-  position: relative;
-  font-size: var(--font-size-xl);
-  font-weight: 600;
-  font-family: var(--font-nunito-sans);
-  color: var(--color-white);
-  text-align: left;
+.buttonsWrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 
-.exploreWrapper {
+.exploreButton,
+.goLiveButton {
   cursor: pointer;
   border: 0;
   padding: var(--padding-3xs) var(--padding-xl);
   background-color: var(--color-brown);
-  position: absolute;
-  top: 362px;
-  left: 230px;
   border-radius: var(--br-3xs);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  margin-right: 10px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-nunito-sans);
+  color: var(--color-white);
+  display: inline-block;
   transition: transform 0.2s ease-in-out;
 }
 
-.exploreWrapper:hover {
-  transform: translateY(-5px); /* Apply the hover effect */
-}
-
-.card {
-  width: 387px;
-  position: relative;
-  height: 449px;
-  text-align: left;
-  font-size: var(--font-size-9xl);
-  color: var(--color-black);
-  font-family: var(--font-nunito-sans);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+.exploreButton:hover,
+.goLiveButton:hover,
+.cardItem:hover  {
+  transform: translateY(-5px); 
 }

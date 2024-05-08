@@ -27,13 +27,14 @@ const AboutContainer = () => {
   }, []);
 
   const onResumeClick = useCallback(() => {
-    const resumePath = process.env.PUBLIC_URL + '/Resume/LALETH Resume.pdf';
-    const link = document.createElement('a');
-    link.href = resumePath;
-    link.download = 'LALETH Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    const resumePath = process.env.PUBLIC_URL + 'Resume/LalethTR_Resume.pdf';
+    // const link = document.createElement('a');
+    // link.href = resumePath;
+    // link.download = 'LALETH Resume.pdf';
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
+    window.open(resumePath, '_blank');
   }, []);
   
   
